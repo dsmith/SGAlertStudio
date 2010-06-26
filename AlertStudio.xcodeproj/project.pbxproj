@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A3CC69F11BC0DA100271FAB /* SGAttributeString.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3CC69411BC0DA100271FAB /* SGAttributeString.h */; };
+		4A3CC6A011BC0DA100271FAB /* SGAttributeString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CC69511BC0DA100271FAB /* SGAttributeString.m */; };
+		4A3CC6A111BC0DA100271FAB /* SGGrowlBucketView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3CC69611BC0DA100271FAB /* SGGrowlBucketView.h */; };
+		4A3CC6A211BC0DA100271FAB /* SGGrowlBucketView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CC69711BC0DA100271FAB /* SGGrowlBucketView.m */; };
+		4A3CC6A311BC0DA100271FAB /* SGGrowlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3CC69811BC0DA100271FAB /* SGGrowlView.h */; };
+		4A3CC6A411BC0DA100271FAB /* SGGrowlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CC69911BC0DA100271FAB /* SGGrowlView.m */; };
+		4A3CC6A511BC0DA100271FAB /* SGNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3CC69A11BC0DA100271FAB /* SGNotifications.h */; };
+		4A3CC6A611BC0DA100271FAB /* SGTickerMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3CC69B11BC0DA100271FAB /* SGTickerMessage.h */; };
+		4A3CC6A711BC0DA100271FAB /* SGTickerMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CC69C11BC0DA100271FAB /* SGTickerMessage.m */; };
+		4A3CC6A811BC0DA100271FAB /* SGTickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3CC69D11BC0DA100271FAB /* SGTickerView.h */; };
+		4A3CC6A911BC0DA100271FAB /* SGTickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CC69E11BC0DA100271FAB /* SGTickerView.m */; };
+		4A3CC6AE11BC0DCD00271FAB /* SGNotificationConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3CC6AD11BC0DCD00271FAB /* SGNotificationConstants.h */; };
+		4A3CC6C611BC0FEF00271FAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3CC6C511BC0FEF00271FAB /* UIKit.framework */; };
+		4A4393A311BC115400BF5128 /* SGAlertStudio_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 4A4393A211BC115400BF5128 /* SGAlertStudio_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A3CC69411BC0DA100271FAB /* SGAttributeString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGAttributeString.h; sourceTree = "<group>"; };
+		4A3CC69511BC0DA100271FAB /* SGAttributeString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGAttributeString.m; sourceTree = "<group>"; };
+		4A3CC69611BC0DA100271FAB /* SGGrowlBucketView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGGrowlBucketView.h; sourceTree = "<group>"; };
+		4A3CC69711BC0DA100271FAB /* SGGrowlBucketView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGGrowlBucketView.m; sourceTree = "<group>"; };
+		4A3CC69811BC0DA100271FAB /* SGGrowlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGGrowlView.h; sourceTree = "<group>"; };
+		4A3CC69911BC0DA100271FAB /* SGGrowlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGGrowlView.m; sourceTree = "<group>"; };
+		4A3CC69A11BC0DA100271FAB /* SGNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGNotifications.h; sourceTree = "<group>"; };
+		4A3CC69B11BC0DA100271FAB /* SGTickerMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGTickerMessage.h; sourceTree = "<group>"; };
+		4A3CC69C11BC0DA100271FAB /* SGTickerMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGTickerMessage.m; sourceTree = "<group>"; };
+		4A3CC69D11BC0DA100271FAB /* SGTickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGTickerView.h; sourceTree = "<group>"; };
+		4A3CC69E11BC0DA100271FAB /* SGTickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGTickerView.m; sourceTree = "<group>"; };
+		4A3CC6AD11BC0DCD00271FAB /* SGNotificationConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGNotificationConstants.h; sourceTree = "<group>"; };
+		4A3CC6C511BC0FEF00271FAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A4393A211BC115400BF5128 /* SGAlertStudio_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGAlertStudio_Prefix.pch; sourceTree = "<group>"; };
+		4A4393A511BC11A300BF5128 /* CloseNotificationButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNotificationButton.png; sourceTree = "<group>"; };
+		4A4393A611BC11A300BF5128 /* NotificationBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotificationBackground.png; sourceTree = "<group>"; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libSGAlertStudio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSGAlertStudio.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				4A3CC6C611BC0FEF00271FAB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libSGAlertStudio.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* SGNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				4A3CC6AA11BC0DAD00271FAB /* Resources */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = SGNotifications;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				4A3CC6C511BC0FEF00271FAB /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4A3CC69411BC0DA100271FAB /* SGAttributeString.h */,
+				4A3CC69511BC0DA100271FAB /* SGAttributeString.m */,
+				4A3CC69611BC0DA100271FAB /* SGGrowlBucketView.h */,
+				4A3CC69711BC0DA100271FAB /* SGGrowlBucketView.m */,
+				4A3CC69811BC0DA100271FAB /* SGGrowlView.h */,
+				4A3CC69911BC0DA100271FAB /* SGGrowlView.m */,
+				4A3CC69A11BC0DA100271FAB /* SGNotifications.h */,
+				4A3CC69B11BC0DA100271FAB /* SGTickerMessage.h */,
+				4A3CC69C11BC0DA100271FAB /* SGTickerMessage.m */,
+				4A3CC69D11BC0DA100271FAB /* SGTickerView.h */,
+				4A3CC69E11BC0DA100271FAB /* SGTickerView.m */,
+				4A3CC6AD11BC0DCD00271FAB /* SGNotificationConstants.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4A3CC6AA11BC0DAD00271FAB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A4393A411BC115E00BF5128 /* Images */,
+				4A4393A211BC115400BF5128 /* SGAlertStudio_Prefix.pch */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4A4393A411BC115E00BF5128 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4A4393A511BC11A300BF5128 /* CloseNotificationButton.png */,
+				4A4393A611BC11A300BF5128 /* NotificationBackground.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3CC69F11BC0DA100271FAB /* SGAttributeString.h in Headers */,
+				4A3CC6A111BC0DA100271FAB /* SGGrowlBucketView.h in Headers */,
+				4A3CC6A311BC0DA100271FAB /* SGGrowlView.h in Headers */,
+				4A3CC6A511BC0DA100271FAB /* SGNotifications.h in Headers */,
+				4A3CC6A611BC0DA100271FAB /* SGTickerMessage.h in Headers */,
+				4A3CC6A811BC0DA100271FAB /* SGTickerView.h in Headers */,
+				4A3CC6AE11BC0DCD00271FAB /* SGNotificationConstants.h in Headers */,
+				4A4393A311BC115400BF5128 /* SGAlertStudio_Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* SGAlertStudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "SGAlertStudio" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGAlertStudio;
+			productName = SGNotifications;
+			productReference = D2AAC07E0554694100DB518D /* libSGAlertStudio.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = SimpleGeo;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "AlertStudio" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* SGNotifications */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* SGAlertStudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3CC6A011BC0DA100271FAB /* SGAttributeString.m in Sources */,
+				4A3CC6A211BC0DA100271FAB /* SGGrowlBucketView.m in Sources */,
+				4A3CC6A411BC0DA100271FAB /* SGGrowlView.m in Sources */,
+				4A3CC6A711BC0DA100271FAB /* SGTickerMessage.m in Sources */,
+				4A3CC6A911BC0DA100271FAB /* SGTickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/SGNotifications.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Resources/SGAlertStudio_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = SGAlertStudio;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/SGNotifications.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SGNotifications_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = SGNotifications;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "SGAlertStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "AlertStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
