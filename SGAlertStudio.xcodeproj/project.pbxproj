@@ -41,6 +41,8 @@
 		4A4393A211BC115400BF5128 /* SGAlertStudio_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGAlertStudio_Prefix.pch; sourceTree = "<group>"; };
 		4A4393A511BC11A300BF5128 /* CloseNotificationButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNotificationButton.png; sourceTree = "<group>"; };
 		4A4393A611BC11A300BF5128 /* NotificationBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotificationBackground.png; sourceTree = "<group>"; };
+		4AED797A11D6C9F700318263 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		4AED797B11D6CA0200318263 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libSGAlertStudio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSGAlertStudio.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,10 +71,12 @@
 		0867D691FE84028FC02AAC07 /* SGNotifications */ = {
 			isa = PBXGroup;
 			children = (
+				4AED797A11D6C9F700318263 /* README */,
 				4A3CC6AA11BC0DAD00271FAB /* Resources */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
+				4AED797B11D6CA0200318263 /* LICENSE */,
 			);
 			name = SGNotifications;
 			sourceTree = "<group>";
